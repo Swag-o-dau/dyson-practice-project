@@ -1,0 +1,119 @@
+.footer {
+    background: #111;
+    padding: 50px 0 58px;
+    color: var(--accent-text);
+}
+
+.footer__logo {
+    margin-bottom: 25px;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__about,
+.shop__title,
+.info__title,
+.ofers__title,
+.contacts__content {
+    font-family: var(--second-family);
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.footer__about {
+    margin-bottom: 30px;
+}
+.footer__about a {
+    transition: var(--transition);
+}
+.footer__about a:hover {
+    color: var(--accent-color);
+}
+
+.footer__list {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.footer__item {
+    margin-bottom: 15px;
+}
+.footer__item a {
+    transition: var(--transition);
+}
+.footer__item a:hover {
+    color: var(--accent-color);
+}
+
+.footer__contacts {
+    margin-right: 116px;
+}
+
+.contacts__content {
+    max-width: 210px;
+    margin-bottom: 55px;
+}
+
+.contacts__content div {
+    margin-bottom: 10px;
+}
+
+.contacts__content span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    transition: var(--transition);
+}
+.contacts__content span:hover {
+    color: var(--accent-color);
+}
+
+.contacts__logos {
+    display: flex;
+    gap: 20px;
+}
+
+.logos__tg {
+    background: var(--bg-1);
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    padding: 11.93px 10.65px 10.12px 7.68px;
+    transition: var(--transition);
+}
+
+.logos__vk {
+    background: var(--bg-1);
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    padding: 13.21px 8.93px 12.63px 8.37px;
+    transition: var(--transition);
+}
+
+.logos__yt {
+    background: var(--bg-1);
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    padding: 12.65px 9.7px 12.84px 9.57px;
+    transition: var(--transition);
+}
+
+.logos__tg:hover,
+.logos__vk:hover,
+.logos__yt:hover {
+    background: var(--accent-color);
+}
+
+.footer_cr {    
+    font-weight: 300;
+    font-size: 18px;
+    justify-self: end;
+    position: relative;
+    bottom: 33px;
+    right: 137px;
+}
